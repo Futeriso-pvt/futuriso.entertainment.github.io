@@ -94,4 +94,75 @@ color: #d32f2f; /* Red text for h1 */
 .counter button:hover {
     background-color: white;
     color: #667eea;
+
+}
+/* === MOBILE RESPONSIVE DESIGN === */
+
+/* For tablets and mobile devices */
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+        display: block;
+    }
+    
+    .container {
+        width: 90%;
+        max-width: none;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    
+    h1 {
+        font-size: 1.8em;
+        margin-bottom: 15px;
+    }
+    
+    p {
+        font-size: 1em;
+        line-height: 1.4;
+    }
+    
+    .my-button {
+        padding: 12px 25px;
+        font-size: 1em;
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+    .counter {
+        padding: 15px;
+        margin-top: 20px;
+    }
+    
+    .counter h3 {
+        font-size: 1.3em;
+    }
+    
+    .counter button {
+        display: block;
+        width: 100%;
+        margin: 8px 0;
+        padding: 12px;
+    }
+}
+
+/* For very small phones */
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+    
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 1.5em;
+    }
+    
+    .counter button {
+        padding: 10px;
+        font-size: 0.9em;
+    }
 }
