@@ -1,0 +1,97 @@
+/* This is styles.css - our external stylesheet */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #7f8c8d;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.my-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+background-color: #ffebee; /* Light pink background */
+color: #d32f2f; /* Red text for h1 */
+.my-button {
+    background-color: #4caf50; /* Green button */
+}
+.feature-box {
+    background-color: #9fd4fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.feature-box h2 {
+    color: #1976d2;
+    text-align: center;
+}
+
+.feature-box ul {
+    color: #555;
+}
+.container {
+    transition: all 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+.counter {
+    margin-top: 30px;
+    padding: 20px;
+    background: linear-gradient(135deg, #caff98 0%, #f5e276 100%);
+    color: white;
+    border-radius: 10px;
+}
+
+.counter button {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: rgba(104, 104, 104, 0.29);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.counter button:hover {
+    background-color: white;
+    color: #667eea;
+}
